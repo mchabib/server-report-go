@@ -1,0 +1,7 @@
+clients:
+  - label: "Client A"       # harus sama persis dengan external_labels.client di Prometheus client tsb (spasi/kapitalisasi harus sama persis)
+    name: "Client A"         # nama yang muncul di judul laporan Telegram
+    telegram_chat_id: "-1001111111"
+  - label: "Client B"
+    name: "Client B"
+    telegram_chat_id: "-1002222222"
